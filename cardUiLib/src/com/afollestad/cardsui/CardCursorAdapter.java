@@ -44,7 +44,7 @@ public class CardCursorAdapter<ItemType extends CardBase<ItemType> & SilkCursorI
      */
     public CardCursorAdapter(Context context, Class<? extends SilkCursorItem> cls) {
         super(context, cls);
-        mAccentColor = context.getResources().getColor(R.color.light);
+        mAccentColor = context.getResources().getColor(R.color.dark);
         mViewTypes = new HashMap<Integer, Integer>();
         registerLayout(R.layout.list_item_header_centered);
         registerLayout(R.layout.list_item_card_compressed);

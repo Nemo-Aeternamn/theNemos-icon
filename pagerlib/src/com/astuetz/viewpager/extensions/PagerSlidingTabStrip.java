@@ -17,9 +17,6 @@
 package com.astuetz.viewpager.extensions;
 
 import java.util.Locale;
-
-import com.astuetz.viewpager.extensions.R.color;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -52,7 +49,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 	// @formatter:off
 	private static final int[] ATTRS = new int[] {
 		android.R.attr.textSize,
-		color.lightGrey
+		R.color.lightGrey
     };
 	// @formatter:on
 

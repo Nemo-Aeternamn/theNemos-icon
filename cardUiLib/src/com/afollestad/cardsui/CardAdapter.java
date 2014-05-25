@@ -43,7 +43,7 @@ public class CardAdapter<ItemType extends CardBase<ItemType>> extends SilkAdapte
      */
     public CardAdapter(Context context) {
         super(context);
-        mAccentColor = context.getResources().getColor(R.color.lightGrey);
+        mAccentColor = context.getResources().getColor(R.color.dark);
         mViewTypes = new HashMap<Integer, Integer>();
         registerLayout(R.layout.list_item_header_centered);
         registerLayout(R.layout.list_item_card_compressed);
