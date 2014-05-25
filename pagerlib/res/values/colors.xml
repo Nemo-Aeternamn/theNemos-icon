@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#FFFFFFFF</color>
+    <color name="lightGrey">#FFC6C6C6</color>
+    <color name="lightText">#FFC3C3C3</color>
+    <color name="underline">#1A000000</color>
+</resources>

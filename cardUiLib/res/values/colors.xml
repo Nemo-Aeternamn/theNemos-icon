@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="card_pressed">#FFFBFBFB</color>
+    <color name="card_pressed_header">#d6d6d6</color>
+    <color name="header_button_default">#FFC3C3C3</color>
+    <color name="dark">#FF000000</color>
+    <color name="light">#FFFFFFFF</color>
+    <color name="lightGrey">#FFC6C6C6</color>
+    <color name="darkGrey">#FF687776</color>
+    <color name="textHint">#FFB5B5B5</color>
+
+</resources>
