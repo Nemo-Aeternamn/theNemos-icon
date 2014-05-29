@@ -345,7 +345,7 @@ public class FragmentTheme extends Fragment  implements Card.CardMenuListener<Ca
 		super.onStart();
 
 		CardAdapter<Card> cardsAdapter = new CardAdapter<Card>(getActivity())
-				.setAccentColorRes(R.color.cardText)
+				.setAccentColorRes(R.color.cardTitle)
 				.setPopupMenu(R.menu.theme_popup, this);
 
 		cardsAdapter.add(new CardHeader(getActivity(), R.string.themeheader)

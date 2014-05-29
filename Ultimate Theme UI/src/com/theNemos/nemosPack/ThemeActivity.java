@@ -45,8 +45,7 @@ public class ThemeActivity extends FragmentActivity{
 	private MyPagerAdapter adapter;
 	private ShareActionProvider mShareActionProvider;
 	private Intent mShareIntent;
-	
-	
+
 	   @Override
 	    public void onCreate(Bundle savedInstanceState) {
 

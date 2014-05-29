@@ -225,7 +225,7 @@ public class FragmentExtras extends Fragment  implements Card.CardMenuListener<C
 		super.onStart();
 
 		CardAdapter<Card> cardsAdapter = new CardAdapter<Card>(getActivity())
-				.setAccentColorRes(R.color.cardText)
+				.setAccentColorRes(R.color.cardTitle)
 				.setPopupMenu(R.menu.extras_popup, this);
 
 		cardsAdapter.add(new CardHeader(getActivity(), R.string.playheader)

@@ -48,8 +48,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 
 	// @formatter:off
 	private static final int[] ATTRS = new int[] {
-		android.R.attr.textSize,
-		R.color.lightGrey
+		android.R.attr.textSize
     };
 	// @formatter:on
 
@@ -86,8 +85,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 	private int tabPadding = 24;
 	private int dividerWidth = 1;
 
-	private int tabTextSize = 12;
-	private int tabTextColor = R.color.lightText;
+	private int tabTextSize = 11;	
+	private int tabTextColor = 0XFFC2C2C2;
 	private Typeface tabTypeface = null;
 	private int tabTypefaceStyle = Typeface.ITALIC;
 
@@ -139,6 +138,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 
 		a = context.obtainStyledAttributes(attrs, R.styleable.PagerSlidingTabStrip);
 
+		tabTextColor = a.getColor(R.styleable.PagerSlidingTabStrip_tabTextColor, tabTextColor);
 		indicatorColor = a.getColor(R.styleable.PagerSlidingTabStrip_indicatorColor, indicatorColor);
 		underlineColor = a.getColor(R.styleable.PagerSlidingTabStrip_underlineColor, underlineColor);
 		dividerColor = a.getColor(R.styleable.PagerSlidingTabStrip_dividerColor, dividerColor);

@@ -51,7 +51,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f010005;
+        public static final int dividerPadding=0x7f010006;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -70,7 +70,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int indicatorHeight=0x7f010003;
+        public static final int indicatorHeight=0x7f010004;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -80,7 +80,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int scrollOffset=0x7f010007;
+        public static final int scrollOffset=0x7f010008;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -88,11 +88,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int shouldExpand=0x7f010009;
+        public static final int shouldExpand=0x7f01000a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabBackground=0x7f010008;
+        public static final int tabBackground=0x7f010009;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -102,7 +102,16 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingLeftRight=0x7f010006;
+        public static final int tabPaddingLeftRight=0x7f010007;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabTextColor=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -110,7 +119,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int textAllCaps=0x7f01000a;
+        public static final int textAllCaps=0x7f01000b;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -129,7 +138,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int underlineHeight=0x7f010004;
+        public static final int underlineHeight=0x7f010005;
     }
     public static final class bool {
         public static final int config_apexskin=0x7f0b0004;
@@ -143,27 +152,29 @@ containing a value of this type.
         public static final int enableIconPack=0x7f0b0000;
     }
     public static final class color {
-        public static final int ButtonOff=0x7f0a0011;
-        public static final int ButtonOn=0x7f0a0012;
-        public static final int actionBar=0x7f0a000b;
-        public static final int backgroundFragment=0x7f0a000d;
-        public static final int backgroundWindow=0x7f0a000c;
+        public static final int ButtonOff=0x7f0a0013;
+        public static final int ButtonOn=0x7f0a0014;
+        public static final int actionBar=0x7f0a000c;
+        public static final int backgroundFragment=0x7f0a000e;
+        public static final int backgroundWindow=0x7f0a000d;
         public static final int background_tab_pressed=0x7f0a0000;
-        public static final int cardPressed=0x7f0a000f;
-        public static final int cardText=0x7f0a0010;
-        public static final int cardUnpressed=0x7f0a000e;
-        public static final int card_pressed=0x7f0a0004;
-        public static final int card_pressed_header=0x7f0a0005;
-        public static final int dark=0x7f0a0007;
-        public static final int darkGrey=0x7f0a0009;
-        public static final int header_button_default=0x7f0a0006;
-        public static final int light=0x7f0a0008;
+        public static final int cardPressed=0x7f0a0010;
+        public static final int cardText=0x7f0a0011;
+        public static final int cardTitle=0x7f0a0012;
+        public static final int cardUnpressed=0x7f0a000f;
+        public static final int card_pressed=0x7f0a0005;
+        public static final int card_pressed_header=0x7f0a0006;
+        public static final int dark=0x7f0a0008;
+        public static final int darkGrey=0x7f0a000a;
+        public static final int header_button_default=0x7f0a0007;
+        public static final int light=0x7f0a0009;
         public static final int lightGrey=0x7f0a0001;
         public static final int lightText=0x7f0a0002;
-        public static final int smartAMPM=0x7f0a0015;
-        public static final int smartDate=0x7f0a0013;
-        public static final int smartHour=0x7f0a0014;
-        public static final int textHint=0x7f0a000a;
+        public static final int smartAMPM=0x7f0a0017;
+        public static final int smartDate=0x7f0a0015;
+        public static final int smartHour=0x7f0a0016;
+        public static final int test=0x7f0a0004;
+        public static final int textHint=0x7f0a000b;
         public static final int underline=0x7f0a0003;
     }
     public static final class dimen {
@@ -449,127 +460,128 @@ containing a value of this type.
         public static final int theme_popup=0x7f0e0003;
     }
     public static final class string {
-        public static final int action_contact=0x7f08001f;
-        public static final int actionlauncher=0x7f08005d;
-        public static final int actionlauncher_extra=0x7f08005e;
-        public static final int adwlauncher=0x7f08005f;
-        public static final int adwlauncher_extra=0x7f080060;
-        public static final int apexlauncher=0x7f080061;
-        public static final int apexlauncher_extra=0x7f080062;
+        public static final int action_contact=0x7f080020;
+        public static final int actionlauncher=0x7f08005e;
+        public static final int actionlauncher_extra=0x7f08005f;
+        public static final int adwlauncher=0x7f080060;
+        public static final int adwlauncher_extra=0x7f080061;
+        public static final int apexlauncher=0x7f080062;
+        public static final int apexlauncher_extra=0x7f080063;
         /**  Basic theme information 
          */
         public static final int app_name=0x7f080002;
-        public static final int apply=0x7f08005c;
+        public static final int apply=0x7f08005d;
         public static final int apply_wallpaper=0x7f080007;
-        public static final int author=0x7f080057;
-        public static final int authorLink=0x7f08000e;
+        public static final int author=0x7f080058;
+        public static final int authorLink=0x7f08000f;
         /**  Theme properties 
          */
         public static final int authorName=0x7f08000c;
-        public static final int aviate=0x7f08006f;
-        public static final int aviate_extra=0x7f080070;
-        public static final int basicsheader=0x7f080038;
-        public static final int begin_activity_scan=0x7f08001b;
+        public static final int aviate=0x7f080070;
+        public static final int aviate_extra=0x7f080071;
+        public static final int basicsheader=0x7f080039;
+        public static final int begin_activity_scan=0x7f08001c;
         /**  Clock text and text's shadow color 
          */
-        public static final int clockcolor=0x7f080071;
-        public static final int clockshadow=0x7f080072;
-        public static final int contact=0x7f08001e;
-        public static final int contactheader=0x7f080020;
-        public static final int credit=0x7f080058;
-        public static final int default_wallpaper=0x7f080074;
+        public static final int clockcolor=0x7f080072;
+        public static final int clockshadow=0x7f080073;
+        public static final int contact=0x7f08001f;
+        public static final int contactheader=0x7f080021;
+        public static final int credit=0x7f080059;
+        public static final int default_wallpaper=0x7f080075;
+        public static final int designerName=0x7f08000e;
         public static final int developerName=0x7f08000d;
         /**  This (optional) link will appear at the end of the theme description 
          */
-        public static final int developer_link=0x7f080010;
+        public static final int developer_link=0x7f080011;
         public static final int developer_name=0x7f080005;
-        public static final int email=0x7f08002c;
-        public static final int email_extra=0x7f08002d;
-        public static final int email_link=0x7f08002e;
+        public static final int email=0x7f08002d;
+        public static final int email_extra=0x7f08002e;
+        public static final int email_link=0x7f08002f;
         /**  Icon Request data 
          */
-        public static final int email_subject=0x7f080017;
-        public static final int email_text=0x7f080018;
-        public static final int emailheader=0x7f08002b;
-        public static final int extras1=0x7f080046;
-        public static final int extras1_extra=0x7f080047;
-        public static final int extras1_link=0x7f080048;
-        public static final int extras2=0x7f080049;
-        public static final int extras2_extra=0x7f08004a;
-        public static final int extras2_link=0x7f08004b;
-        public static final int extrasheader=0x7f08003f;
-        public static final int facebook=0x7f080028;
-        public static final int facebook_extra=0x7f080029;
-        public static final int facebook_link=0x7f08002a;
-        public static final int github=0x7f08004d;
-        public static final int github_extra=0x7f08004e;
-        public static final int github_link=0x7f08004f;
+        public static final int email_subject=0x7f080018;
+        public static final int email_text=0x7f080019;
+        public static final int emailheader=0x7f08002c;
+        public static final int extras1=0x7f080047;
+        public static final int extras1_extra=0x7f080048;
+        public static final int extras1_link=0x7f080049;
+        public static final int extras2=0x7f08004a;
+        public static final int extras2_extra=0x7f08004b;
+        public static final int extras2_link=0x7f08004c;
+        public static final int extrasheader=0x7f080040;
+        public static final int facebook=0x7f080029;
+        public static final int facebook_extra=0x7f08002a;
+        public static final int facebook_link=0x7f08002b;
+        public static final int github=0x7f08004e;
+        public static final int github_extra=0x7f08004f;
+        public static final int github_link=0x7f080050;
         public static final int go_applied=0x7f080008;
-        public static final int golauncher=0x7f080067;
-        public static final int golauncher_extra=0x7f080068;
-        public static final int gplus=0x7f080022;
-        public static final int gplus_extra=0x7f080023;
-        public static final int gplus_link=0x7f080024;
-        public static final int holo=0x7f080069;
-        public static final int holo_extra=0x7f08006a;
-        public static final int icon=0x7f08003b;
+        public static final int golauncher=0x7f080068;
+        public static final int golauncher_extra=0x7f080069;
+        public static final int gplus=0x7f080023;
+        public static final int gplus_extra=0x7f080024;
+        public static final int gplus_link=0x7f080025;
+        public static final int holo=0x7f08006a;
+        public static final int holo_extra=0x7f08006b;
+        public static final int icon=0x7f08003c;
         /**  Icon Catergories Tabs 
          */
-        public static final int icon1=0x7f080012;
-        public static final int icon2=0x7f080013;
-        public static final int icon3=0x7f080014;
-        public static final int icon4=0x7f080015;
-        public static final int icon5=0x7f080016;
-        public static final int icon_extra=0x7f08003c;
+        public static final int icon1=0x7f080013;
+        public static final int icon2=0x7f080014;
+        public static final int icon3=0x7f080015;
+        public static final int icon4=0x7f080016;
+        public static final int icon5=0x7f080017;
+        public static final int icon_extra=0x7f08003d;
         public static final int icon_title=0x7f080004;
         /**  A suggested iconPack for drawer, insert here the packagename of the app you'd like to suggest 
          */
-        public static final int iconpack=0x7f080073;
-        public static final int just_some_bullshit=0x7f080059;
+        public static final int iconpack=0x7f080074;
+        public static final int just_some_bullshit=0x7f08005a;
         public static final int loading=0x7f080000;
-        public static final int minilauncher=0x7f08006b;
-        public static final int minilauncher_extra=0x7f08006c;
-        public static final int nextlauncher=0x7f08006d;
-        public static final int nextlauncher_extra=0x7f08006e;
-        public static final int novalauncher=0x7f080063;
-        public static final int novalauncher_extra=0x7f080064;
+        public static final int minilauncher=0x7f08006c;
+        public static final int minilauncher_extra=0x7f08006d;
+        public static final int nextlauncher=0x7f08006e;
+        public static final int nextlauncher_extra=0x7f08006f;
+        public static final int novalauncher=0x7f080064;
+        public static final int novalauncher_extra=0x7f080065;
         public static final int pkg=0x7f080006;
-        public static final int play=0x7f080035;
-        public static final int play_extra=0x7f080036;
-        public static final int play_link=0x7f080037;
-        public static final int playheader=0x7f080034;
-        public static final int request=0x7f08003d;
-        public static final int request_email_addr=0x7f080019;
-        public static final int request_extra=0x7f08003e;
-        public static final int rootzwiki=0x7f080050;
-        public static final int rootzwiki_extra=0x7f080051;
-        public static final int rootzwiki_link=0x7f080052;
-        public static final int scan_note=0x7f08001c;
+        public static final int play=0x7f080036;
+        public static final int play_extra=0x7f080037;
+        public static final int play_link=0x7f080038;
+        public static final int playheader=0x7f080035;
+        public static final int request=0x7f08003e;
+        public static final int request_email_addr=0x7f08001a;
+        public static final int request_extra=0x7f08003f;
+        public static final int rootzwiki=0x7f080051;
+        public static final int rootzwiki_extra=0x7f080052;
+        public static final int rootzwiki_link=0x7f080053;
+        public static final int scan_note=0x7f08001d;
         public static final int see_more=0x7f080001;
-        public static final int send_email=0x7f08001a;
+        public static final int send_email=0x7f08001b;
         /**  Share Button 
  This is additional text that is attached to your package when sharing the link 
          */
-        public static final int share_this=0x7f08000f;
-        public static final int smartlauncher=0x7f080065;
-        public static final int smartlauncher_extra=0x7f080066;
-        public static final int socialheader=0x7f080021;
+        public static final int share_this=0x7f080010;
+        public static final int smartlauncher=0x7f080066;
+        public static final int smartlauncher_extra=0x7f080067;
+        public static final int socialheader=0x7f080022;
         /** This data is what fills the Theme Tab information 
          */
-        public static final int tab1=0x7f08005a;
+        public static final int tab1=0x7f08005b;
         /**  This data is what fills the Extras Tab information
          */
-        public static final int tab2=0x7f080033;
+        public static final int tab2=0x7f080034;
         /**  This data is what fills the Contact Tab information
          */
-        public static final int tab3=0x7f08001d;
+        public static final int tab3=0x7f08001e;
         /**  Text Tab 
          */
-        public static final int tab4=0x7f080056;
+        public static final int tab4=0x7f080057;
         /**  This is for information on the template, I would remove this as well as all association in the FramgmentExtra 
          */
-        public static final int template_header=0x7f08004c;
-        public static final int theme_description=0x7f080011;
+        public static final int template_header=0x7f08004d;
+        public static final int theme_description=0x7f080012;
         /**  The feature graphic will appear above the theme description 
          */
         public static final int theme_feature=0x7f080009;
@@ -578,29 +590,29 @@ containing a value of this type.
         public static final int theme_preview1=0x7f08000a;
         public static final int theme_preview2=0x7f08000b;
         public static final int theme_title=0x7f080003;
-        public static final int themeheader=0x7f08005b;
-        public static final int twitter=0x7f080025;
-        public static final int twitter_extra=0x7f080026;
-        public static final int twitter_link=0x7f080027;
-        public static final int uccw=0x7f080040;
-        public static final int uccw_extra=0x7f080041;
+        public static final int themeheader=0x7f08005c;
+        public static final int twitter=0x7f080026;
+        public static final int twitter_extra=0x7f080027;
+        public static final int twitter_link=0x7f080028;
+        public static final int uccw=0x7f080041;
+        public static final int uccw_extra=0x7f080042;
         /**  Use this to link to your UCCW skins on Play or Website, or remove the card in FragmentExtras  
          */
-        public static final int uccw_link=0x7f080042;
-        public static final int wallpaper=0x7f080039;
-        public static final int wallpaper_extra=0x7f08003a;
-        public static final int web=0x7f080030;
-        public static final int web_extra=0x7f080031;
-        public static final int web_link=0x7f080032;
-        public static final int webheader=0x7f08002f;
-        public static final int xda=0x7f080053;
-        public static final int xda_extra=0x7f080054;
-        public static final int xda_link=0x7f080055;
-        public static final int zooper=0x7f080043;
-        public static final int zooper_extra=0x7f080044;
+        public static final int uccw_link=0x7f080043;
+        public static final int wallpaper=0x7f08003a;
+        public static final int wallpaper_extra=0x7f08003b;
+        public static final int web=0x7f080031;
+        public static final int web_extra=0x7f080032;
+        public static final int web_link=0x7f080033;
+        public static final int webheader=0x7f080030;
+        public static final int xda=0x7f080054;
+        public static final int xda_extra=0x7f080055;
+        public static final int xda_link=0x7f080056;
+        public static final int zooper=0x7f080044;
+        public static final int zooper_extra=0x7f080045;
         /**  Use this to link to your Zooper skins on Play or Website, or remove the card in FragmentExtras  
          */
-        public static final int zooper_link=0x7f080045;
+        public static final int zooper_link=0x7f080046;
     }
     public static final class style {
         public static final int ActionBarStyle=0x7f090013;
@@ -653,6 +665,7 @@ containing a value of this type.
            <tr><td><code>{@link #PagerSlidingTabStrip_shouldExpand com.theNemos.nemosPack:shouldExpand}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_tabBackground com.theNemos.nemosPack:tabBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_tabPaddingLeftRight com.theNemos.nemosPack:tabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_tabTextColor com.theNemos.nemosPack:tabTextColor}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_textAllCaps com.theNemos.nemosPack:textAllCaps}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_underlineColor com.theNemos.nemosPack:underlineColor}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_underlineHeight com.theNemos.nemosPack:underlineHeight}</code></td><td></td></tr>
@@ -665,6 +678,7 @@ containing a value of this type.
            @see #PagerSlidingTabStrip_shouldExpand
            @see #PagerSlidingTabStrip_tabBackground
            @see #PagerSlidingTabStrip_tabPaddingLeftRight
+           @see #PagerSlidingTabStrip_tabTextColor
            @see #PagerSlidingTabStrip_textAllCaps
            @see #PagerSlidingTabStrip_underlineColor
            @see #PagerSlidingTabStrip_underlineHeight
@@ -672,7 +686,7 @@ containing a value of this type.
         public static final int[] PagerSlidingTabStrip = {
             0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
             0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
         };
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#dividerColor}
@@ -704,7 +718,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:dividerPadding
         */
-        public static final int PagerSlidingTabStrip_dividerPadding = 5;
+        public static final int PagerSlidingTabStrip_dividerPadding = 6;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#indicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -735,7 +749,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:indicatorHeight
         */
-        public static final int PagerSlidingTabStrip_indicatorHeight = 3;
+        public static final int PagerSlidingTabStrip_indicatorHeight = 4;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#scrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -751,7 +765,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:scrollOffset
         */
-        public static final int PagerSlidingTabStrip_scrollOffset = 7;
+        public static final int PagerSlidingTabStrip_scrollOffset = 8;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#shouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -765,7 +779,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:shouldExpand
         */
-        public static final int PagerSlidingTabStrip_shouldExpand = 9;
+        public static final int PagerSlidingTabStrip_shouldExpand = 10;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#tabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -775,7 +789,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.theNemos.nemosPack:tabBackground
         */
-        public static final int PagerSlidingTabStrip_tabBackground = 8;
+        public static final int PagerSlidingTabStrip_tabBackground = 9;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#tabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -791,7 +805,22 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:tabPaddingLeftRight
         */
-        public static final int PagerSlidingTabStrip_tabPaddingLeftRight = 6;
+        public static final int PagerSlidingTabStrip_tabPaddingLeftRight = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#tabTextColor}
+          attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.theNemos.nemosPack:tabTextColor
+        */
+        public static final int PagerSlidingTabStrip_tabTextColor = 3;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#textAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -805,7 +834,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:textAllCaps
         */
-        public static final int PagerSlidingTabStrip_textAllCaps = 10;
+        public static final int PagerSlidingTabStrip_textAllCaps = 11;
         /**
           <p>This symbol is the offset where the {@link com.theNemos.nemosPack.R.attr#underlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -836,6 +865,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.theNemos.nemosPack:underlineHeight
         */
-        public static final int PagerSlidingTabStrip_underlineHeight = 4;
+        public static final int PagerSlidingTabStrip_underlineHeight = 5;
     };
 }

@@ -5,10 +5,12 @@
     <color name="backgroundFragment">#00FF0000</color>
     <color name="cardUnpressed">#7F000000</color>
     <color name="cardPressed">#FF3F9FE0</color>
-    <color name="cardText">#FFFFFFFF</color>
+    <color name="cardText">#FFC3C3C3</color>
+    <color name="cardTitle">#FFFFFFFF</color>
     <color name="ButtonOff">#7F000000</color>
     <color name="ButtonOn">#7FFFFFFF</color>
     <color name="smartDate">#FF3F9FE0</color>
     <color name="smartHour">#FF3F9FE0</color>
     <color name="smartAMPM">#FF3F9FE0</color>
+    <color name="test">#ffff0000</color>
 </resources>

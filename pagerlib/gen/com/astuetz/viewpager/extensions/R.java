@@ -34,7 +34,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dividerPadding=0x7f010005;
+        public static int dividerPadding=0x7f010006;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -53,7 +53,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int indicatorHeight=0x7f010003;
+        public static int indicatorHeight=0x7f010004;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -63,7 +63,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int scrollOffset=0x7f010007;
+        public static int scrollOffset=0x7f010008;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -71,11 +71,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int shouldExpand=0x7f010009;
+        public static int shouldExpand=0x7f01000a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int tabBackground=0x7f010008;
+        public static int tabBackground=0x7f010009;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -85,7 +85,16 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingLeftRight=0x7f010006;
+        public static int tabPaddingLeftRight=0x7f010007;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tabTextColor=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -93,7 +102,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int textAllCaps=0x7f01000a;
+        public static int textAllCaps=0x7f01000b;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -112,12 +121,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int underlineHeight=0x7f010004;
+        public static int underlineHeight=0x7f010005;
     }
     public static final class color {
         public static int background_tab_pressed=0x7f090000;
         public static int lightGrey=0x7f090001;
         public static int lightText=0x7f090002;
+        public static int test=0x7f090004;
         public static int underline=0x7f090003;
     }
     public static final class dimen {
@@ -163,6 +173,7 @@ containing a value of this type.
            <tr><td><code>{@link #PagerSlidingTabStrip_shouldExpand com.astuetz.viewpager.extensions:shouldExpand}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_tabBackground com.astuetz.viewpager.extensions:tabBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_tabPaddingLeftRight com.astuetz.viewpager.extensions:tabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_tabTextColor com.astuetz.viewpager.extensions:tabTextColor}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_textAllCaps com.astuetz.viewpager.extensions:textAllCaps}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_underlineColor com.astuetz.viewpager.extensions:underlineColor}</code></td><td></td></tr>
            <tr><td><code>{@link #PagerSlidingTabStrip_underlineHeight com.astuetz.viewpager.extensions:underlineHeight}</code></td><td></td></tr>
@@ -175,6 +186,7 @@ containing a value of this type.
            @see #PagerSlidingTabStrip_shouldExpand
            @see #PagerSlidingTabStrip_tabBackground
            @see #PagerSlidingTabStrip_tabPaddingLeftRight
+           @see #PagerSlidingTabStrip_tabTextColor
            @see #PagerSlidingTabStrip_textAllCaps
            @see #PagerSlidingTabStrip_underlineColor
            @see #PagerSlidingTabStrip_underlineHeight
@@ -182,7 +194,7 @@ containing a value of this type.
         public static final int[] PagerSlidingTabStrip = {
             0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
             0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
         };
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#dividerColor}
@@ -214,7 +226,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:dividerPadding
         */
-        public static final int PagerSlidingTabStrip_dividerPadding = 5;
+        public static final int PagerSlidingTabStrip_dividerPadding = 6;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#indicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -245,7 +257,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:indicatorHeight
         */
-        public static final int PagerSlidingTabStrip_indicatorHeight = 3;
+        public static final int PagerSlidingTabStrip_indicatorHeight = 4;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#scrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -261,7 +273,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:scrollOffset
         */
-        public static final int PagerSlidingTabStrip_scrollOffset = 7;
+        public static final int PagerSlidingTabStrip_scrollOffset = 8;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#shouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -275,7 +287,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:shouldExpand
         */
-        public static final int PagerSlidingTabStrip_shouldExpand = 9;
+        public static final int PagerSlidingTabStrip_shouldExpand = 10;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#tabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -285,7 +297,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.astuetz.viewpager.extensions:tabBackground
         */
-        public static final int PagerSlidingTabStrip_tabBackground = 8;
+        public static final int PagerSlidingTabStrip_tabBackground = 9;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#tabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -301,7 +313,22 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:tabPaddingLeftRight
         */
-        public static final int PagerSlidingTabStrip_tabPaddingLeftRight = 6;
+        public static final int PagerSlidingTabStrip_tabPaddingLeftRight = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#tabTextColor}
+          attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.astuetz.viewpager.extensions:tabTextColor
+        */
+        public static final int PagerSlidingTabStrip_tabTextColor = 3;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#textAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -315,7 +342,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:textAllCaps
         */
-        public static final int PagerSlidingTabStrip_textAllCaps = 10;
+        public static final int PagerSlidingTabStrip_textAllCaps = 11;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.viewpager.extensions.R.attr#underlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -346,6 +373,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.viewpager.extensions:underlineHeight
         */
-        public static final int PagerSlidingTabStrip_underlineHeight = 4;
+        public static final int PagerSlidingTabStrip_underlineHeight = 5;
     };
 }

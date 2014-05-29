@@ -15,14 +15,14 @@ public final class R {
 		public static final int months = 0x7f070000;
 	}
 	public static final class color {
-		public static final int card_pressed = 0x7f0a0004;
-		public static final int card_pressed_header = 0x7f0a0005;
-		public static final int dark = 0x7f0a0007;
-		public static final int darkGrey = 0x7f0a0009;
-		public static final int header_button_default = 0x7f0a0006;
-		public static final int light = 0x7f0a0008;
+		public static final int card_pressed = 0x7f0a0005;
+		public static final int card_pressed_header = 0x7f0a0006;
+		public static final int dark = 0x7f0a0008;
+		public static final int darkGrey = 0x7f0a000a;
+		public static final int header_button_default = 0x7f0a0007;
+		public static final int light = 0x7f0a0009;
 		public static final int lightGrey = 0x7f0a0001;
-		public static final int textHint = 0x7f0a000a;
+		public static final int textHint = 0x7f0a000b;
 	}
 	public static final class dimen {
 		public static final int card_action_touchdelegate = 0x7f060018;

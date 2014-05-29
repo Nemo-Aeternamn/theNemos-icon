@@ -2,10 +2,10 @@
 <resources>
 
     <!-- Basic theme information -->
-    <string name="app_name">Ultimate Theme UI</string>
-    <string name="theme_title">Ultimate Theme UI</string>
-    <string name="icon_title">Ultimate Theme UI</string>
-    <string name="developer_name">DesignRifts</string>
+    <string name="app_name">The Shadow Pack</string>
+    <string name="theme_title">The Shadow Pack</string>
+    <string name="icon_title"></string>
+    <string name="developer_name">The Nemos</string>
     <string name="pkg">com.theNemos.nemosPack</string>
     <string name="apply_wallpaper">Apply</string>
     <string name="go_applied">Theme Applied</string>
@@ -19,16 +19,17 @@
     <string name="theme_preview2">preview2</string>
     
     <!-- Theme properties -->
-	<string name="authorName">DesignRifts</string>
-	<string name="developerName">DesignRifts</string>
-	<string name="authorLink">http://designrifts.com</string>
+	<string name="authorName">The Nemos</string>
+	<string name="developerName">Nemo Aeternamn</string>
+	<string name="designerName">Nemosfate</string>
+	<string name="authorLink">http://thenemosthemes.blogspot.com/</string>
         
     <!-- Share Button -->
     <!-- This is additional text that is attached to your package when sharing the link -->
     <string name="share_this">This Template Is Da Bomb </string> 
    
     <!-- This (optional) link will appear at the end of the theme description -->
-    <string name="developer_link">http://www.designrifts.com/</string>
+    <string name="developer_link">http://thenemosthemes.blogspot.com/</string>
     <string name="theme_description">This is like having all the sexy parts on my own body and I can play with them all at the same time</string>
     	
 	<!-- Icon Catergories Tabs -->
