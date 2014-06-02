@@ -152,29 +152,29 @@ containing a value of this type.
         public static final int enableIconPack=0x7f0b0000;
     }
     public static final class color {
-        public static final int ButtonOff=0x7f0a0013;
-        public static final int ButtonOn=0x7f0a0014;
-        public static final int actionBar=0x7f0a000c;
-        public static final int backgroundFragment=0x7f0a000e;
-        public static final int backgroundWindow=0x7f0a000d;
+        public static final int ButtonOff=0x7f0a0012;
+        public static final int ButtonOn=0x7f0a0013;
+        public static final int actionBar=0x7f0a000b;
+        public static final int backgroundFragment=0x7f0a000d;
+        public static final int backgroundWindow=0x7f0a000c;
         public static final int background_tab_pressed=0x7f0a0000;
-        public static final int cardPressed=0x7f0a0010;
-        public static final int cardText=0x7f0a0011;
-        public static final int cardTitle=0x7f0a0012;
-        public static final int cardUnpressed=0x7f0a000f;
-        public static final int card_pressed=0x7f0a0005;
-        public static final int card_pressed_header=0x7f0a0006;
-        public static final int dark=0x7f0a0008;
-        public static final int darkGrey=0x7f0a000a;
-        public static final int header_button_default=0x7f0a0007;
-        public static final int light=0x7f0a0009;
+        public static final int cardPressed=0x7f0a000f;
+        public static final int cardText=0x7f0a0010;
+        public static final int cardTitle=0x7f0a0011;
+        public static final int cardUnpressed=0x7f0a000e;
+        public static final int card_pressed=0x7f0a0004;
+        public static final int card_pressed_header=0x7f0a0005;
+        public static final int dark=0x7f0a0007;
+        public static final int darkGrey=0x7f0a0009;
+        public static final int header_button_default=0x7f0a0006;
+        public static final int light=0x7f0a0008;
         public static final int lightGrey=0x7f0a0001;
         public static final int lightText=0x7f0a0002;
-        public static final int smartAMPM=0x7f0a0017;
-        public static final int smartDate=0x7f0a0015;
-        public static final int smartHour=0x7f0a0016;
-        public static final int test=0x7f0a0004;
-        public static final int textHint=0x7f0a000b;
+        public static final int smartAMPM=0x7f0a0016;
+        public static final int smartDate=0x7f0a0014;
+        public static final int smartHour=0x7f0a0015;
+        public static final int test=0x7f0a0017;
+        public static final int textHint=0x7f0a000a;
         public static final int underline=0x7f0a0003;
     }
     public static final class dimen {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="background_tab_pressed">#FF000000</color>
-    <color name="lightGrey">#FFff0000</color>
+    <color name="lightGrey">#FFC2C2C2</color>
     <color name="lightText">#FFff0000</color>
     <color name="underline">#FF000000</color>
-    <color name="test">0XFFC2C2C2</color>
+    <!-- Note: tabTextColor will not accept a redirect to resources file. -->
 </resources>

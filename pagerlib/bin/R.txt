@@ -16,7 +16,6 @@ int attr underlineHeight 0x7f010005
 int color background_tab_pressed 0x7f090000
 int color lightGrey 0x7f090001
 int color lightText 0x7f090002
-int color test 0x7f090004
 int color underline 0x7f090003
 int dimen empty_text_padding 0x7f050002
 int dimen spinner_item_text 0x7f050000
